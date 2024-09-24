@@ -1,1 +1,35 @@
-/* CSS du texte et de la police */
+/* Media Query */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+    font-family: "Raleway", sans-serif;
+    src: url("assets/fonts/Raleway-Bold.ttf") format(truetype);
+    src: url("assets/fonts/Raleway-Bold.woff");
+    src: url("assets/fonts/Raleway-Italic.ttf") format(truetype);
+    src: url("assets/fonts/Raleway-Italic.woff");
+    src: url("assets/fonts/Raleway-Medium.ttf") format(truetype);
+    src: url("assets/fonts/Raleway-Medium.woff");
+}
+
+/* Classe */
+
+.gras {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.mini {
+    font-size: smaller;
+}
+
+
+
+/* Balises */
+
+body {
+    font-family: "Raleway", sans-serif;
+}
