@@ -26,10 +26,41 @@
     font-size: smaller;
 }
 
+.color-white {
+    color: #ffffff;
+}
+
+/* ID */
+
+#size {
+    font-size: larger;
+}
 
 
 /* Balises */
 
+aside {
+    background-color: #e3e3e3;
+}
+
 body {
     font-family: "Raleway", sans-serif;
+}
+
+footer {
+    background-color: #17abb3;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Lato", sans-serif;
+    color: #17abb3;
+}
+
+header {
+    background-color: #17abb3;
+}
+
+main {
+    background-color: #ffffff;
 }
