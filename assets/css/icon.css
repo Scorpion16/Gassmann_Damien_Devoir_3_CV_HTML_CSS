@@ -1,1 +1,71 @@
 /* CSS des icones et de la photo */
+
+/* Classe */
+
+.etoile {
+    color: #17abb3;
+    height: 20px;
+    width: 20px;
+}
+
+/* ID */
+
+#adresse {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+#email {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+#github {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+#instagram {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+#linkedin {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+/*#reseaux {
+
+}*/
+
+#permis {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}
+
+#photo {
+    border: #ffffff solid 5px;
+    border-radius: 50%;
+    height: 175px;
+    width: 125px;
+}
+
+#tel {
+    color: #ffffff;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+}

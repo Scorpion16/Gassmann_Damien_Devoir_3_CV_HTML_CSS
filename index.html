@@ -10,44 +10,68 @@
     </head>
     <body>
         <header>
-            <h1 class="color-white">Albert Lasornette</h1>
+            <img src="assets/images/photo-de-moi.jpg" alt="Photo de profil" id="photo">
+            <h1 class="color-white">Damien Gassmann</h1>
             <h2 class="color-white" id="size">Développeur Web et Web Mobile</h2>
-            <div>
+            <div id="contact">
                 <div>
-                    <label for="email"><img src="assets/images/icon-email.png" alt="Icone de l'e-mail"></label>
+                    <label for="email"><img src="assets/images/icon-email.svg" alt="Icone de l'e-mail" id="email"></label>
                     <p id="email" class="color-white">Albert.Lasornette@gmail.com</p>
                 </div>
                 <div>
+                    <label for="adresse"><img src="assets/images/icon-maison.svg" alt="Icone de l'adresse postal" id="adresse"></label>
                     <p id="adresse" class="color-white">24 Privet Drive</p>
                 </div>
                 <div>
+                    <label for="tel"><img src="assets/images/icon-telephone.svg" alt="Icone du numéro de téléphone" id="tel"></label>
                     <p id="tel" class="color-white">01 02 03 04 05</p>
                 </div>
                 <div>
+                    <label for="permis"><img src="assets/images/icon-auto.svg" alt="Icone du permis" id="permis"></label>
                     <p id="permis" class="color-white">Permis B</p>
                 </div>
             </div>
         </header>
         <aside>
-            <section>
+            <section class="decalage">
                 <h2>Compétences</h2>
                 <hr>
                 <div>
                     <div>
                         <p><span class="gras">HTML</span></p>
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
                     </div>
                     <div>
                         <p><span class="gras">CSS</span></p>
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
                     </div>
                     <div>
                         <p><span class="gras">Javascript</span></p>
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
                     </div>
                     <div>
                         <p><span class="gras">PHP</span></p>
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="decalage">
                 <h2>Langues</h2>
                 <hr>
                 <div>
@@ -55,74 +79,83 @@
                     <p><span class="gras">Anglais</span> <span class="align-right">Notions</span></p>
                 </div>
             </section>
-            <section>
+            <section class="decalage">
                 <h2>Qualités</h2>
                 <hr>
                 <ul>
-                    <li>Travailleur</li>
-                    <li>Acharné</li>
-                    <li>Perfectionniste</li>
-                    <li>Adaptable</li>
+                    <li><span class="color-black">Travailleur</span></li>
+                    <li class="color-black">Acharné</li>
+                    <li class="color-black">Perfectionniste</li>
+                    <li class="color-black">Adaptable</li>
                 </ul>
             </section>
-            <section>
+            <section class="decalage">
                 <h2>Centres d'intérêt</h2>
                 <hr>
                 <ul>
-                    <li>Programmation</li>
-                    <li>Jeux Vidéos</li>
-                    <li>Mangas</li>
+                    <li class="color-black">Programmation</li>
+                    <li class="color-black">Jeux Vidéos</li>
+                    <li class="color-black">Mangas</li>
                 </ul>
             </section>
         </aside>
         <main>
-            <section>
+            <section class="decalage">
                 <h2>Profil</h2>
                 <hr>
                 <p class="organisation">Je suis un homme agé de 35 ans, 
                     j'apprend et je pratique la programmation depuis mes 15 ans, 
                     je connais la base de plusieurs langage de programmation (C, C++, C#, Python, Java, Javascript, PHP et Lua),
-                    je connais aussi très bien le HTML et le CSS.</p>
+                    je connais aussi très bien le HTML et le CSS.
+                </p>
                 <p class="organisation">Passionner par l'univers Japonais j'aime les mangas, j'aime aussi les jeux vidéos qui m'ont 
                     motivés à me mettre à la programmation, je suis du genre acharné et perfectionniste, quand je veut savoir quelque chose 
                     ou quand je veut résoudre un problème je fait tout pour y arriver.
                 </p>
             </section>
-            <section>
+            <section class="decalage">
                 <h2>Formations</h2>
                 <hr>
                 <div class="modif">
-                    <p><span class="gras">Certification de professionnel en Naturopathie</span> <span class="align-right">2021/2024</span></p>
-                    <p><span class="mini">Educatel</span></p>
+                    <p class="gras">Certification de professionnel en Naturopathie</p>
+                    <p class="align-right">2021/2024</p>
+                    <p class="mini">Educatel</p>
                 </div>
                 <div class="modif">
-                    <p><span class="gras">Titre Professionnel DWWM</span> <span class="align-right">2024/2025</span></p>
-                    <p><span class="mini">Centre Européen de Formation</span></p>
+                    <p class="gras">Titre Professionnel DWWM</p>
+                    <p class="align-right">2024/2025</p>
+                    <p class="mini">Centre Européen de Formation</p>
                 </div>
             </section>
-            <section>
+            <section class="decalage">
                 <h2>Stages</h2>
                 <hr>
                 <div class="modif">
-                    <p><span class="gras">Stage en papeterie</span> <span class="align-right">Printemps 2004</span></p>
-                    <p><span class="mini">Stage de 3ème au collège</span></p>
+                    <p class="gras">Stage en papeterie</p>
+                    <p class="align-right">Printemps 2004</p>
+                    <p class="mini">Stage de 3ème au collège</p>
                 </div>
                 <div class="modif">
-                    <p><span class="gras">Développeur Front-end</span> <span class="align-right">Janvier 2025</span></p>
-                    <p><span class="mini">Mairie de ma ville</span></p>
+                    <p class="gras">Développeur Front-end</p>
+                    <p class="align-right">Janvier 2025</p>
+                    <p class="mini">Mairie de ma ville</p>
                 </div>
             </section>
-            <section>
+            <section class="decalage">
                 <h2>Expérience professionnelle</h2>
                 <hr>
                 <div class="modif">
-                    <p><span class="gras">Assisant comptable</span> <span class="align-right">Mars 2007 - Mai 2007</span></p>
-                    <p>Lycée Professionnel</p>
+                    <p class="gras">Assisant comptable</p>
+                    <p class="align-right">Mars 2007 - Mai 2007</p>
+                    <p class="mini">Lycée Professionnel</p>
                 </div>
             </section>
         </main>
         <footer>
-            <div>
+            <div id="resaux">
+                <a href="https://www.linkedin.com/"><img src="assets/images/icon-linkedin.svg" alt="Lien Linkedin" id="linkedin"></a>
+                <a href="https://github.com/"><img src="assets/images/icon-github.svg" alt="Lien GitHub" id="github"></a>
+                <a href="https://www.instagram.com/"><img src="assets/images/icon-instagram.svg" id="instagram"></a>
             </div>
             <p class="color-white">Mis à jour le : <span id="date">JJ/MM/AAAA</span></p>
         </footer>
