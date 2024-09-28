@@ -9,26 +9,18 @@
         <link rel="shortcut icon" href="assets/images/favicon-cv.png" type="image/x-icon">
     </head>
     <body>
-        <header>
-            <img src="assets/images/photo-de-moi.jpg" alt="Photo de profil" id="photo">
-            <h1 class="color-white">Damien Gassmann</h1>
-            <h2 class="color-white" id="size">Développeur Web et Web Mobile</h2>
-            <div id="contact">
-                <div>
-                    <label for="email"><img src="assets/images/icon-email.svg" alt="Icone de l'e-mail" id="email"></label>
-                    <p id="email" class="color-white">Albert.Lasornette@gmail.com</p>
-                </div>
-                <div>
-                    <label for="adresse"><img src="assets/images/icon-maison.svg" alt="Icone de l'adresse postal" id="adresse"></label>
-                    <p id="adresse" class="color-white">24 Privet Drive</p>
-                </div>
-                <div>
-                    <label for="tel"><img src="assets/images/icon-telephone.svg" alt="Icone du numéro de téléphone" id="tel"></label>
-                    <p id="tel" class="color-white">01 02 03 04 05</p>
-                </div>
-                <div>
-                    <label for="permis"><img src="assets/images/icon-auto.svg" alt="Icone du permis" id="permis"></label>
-                    <p id="permis" class="color-white">Permis B</p>
+        <header id="flex-header">
+            <div id="flex-picture">
+                <a href="assets/images/photo-de-moi.jpg" target="_blank"><img src="assets/images/photo-de-moi.jpg" alt="Photo de profil" id="photo"></a>
+            </div>
+            <div id="flex-text">
+                <h1 class="color-white" id="nom-prenom">Damien Gassmann</h1>
+                <h2 class="color-white" id="size">Développeur Web et Web Mobile</h2>
+                <div id="contact">
+                    <a id="email" class="color-white" href="mailto:Albert.Lasornette@gmail.com"><img src="assets/images/icon-email.svg" alt="Icone de l'e-mail" id="email-icon"> Mail</a>
+                    <a id="adresse" class="color-white" href="https://maps.app.goo.gl/vwbFj6z1QY8DXuc98"><img src="assets/images/icon-maison.svg" alt="Icone de l'adresse postal" id="adresse-icon"> Adresse</a>
+                    <a id="tel" class="color-white" href="tel:0102030405"><img src="assets/images/icon-telephone.svg" alt="Icone du numéro de téléphone" id="tel-icon"> Téléphone</a>
+                    <p id="permis" class="color-white"><img src="assets/images/icon-auto.svg" alt="Icone du permis" id="permis-icon"> Permis B</p>
                 </div>
             </div>
         </header>
@@ -37,46 +29,58 @@
                 <h2>Compétences</h2>
                 <hr>
                 <div>
-                    <div>
-                        <p><span class="gras">HTML</span></p>
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                    <div class="flex-aside">
+                        <p class="gras">HTML</p>
+                        <div class="etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                        </div>
                     </div>
-                    <div>
-                        <p><span class="gras">CSS</span></p>
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                    <div class="flex-aside">
+                        <p class="gras">CSS</p>
+                        <div class="etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                        </div>
                     </div>
-                    <div>
-                        <p><span class="gras">Javascript</span></p>
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                    <div class="flex-aside">
+                        <p class="gras">Javascript</p>
+                        <div class="etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                        </div>
                     </div>
-                    <div>
-                        <p><span class="gras">PHP</span></p>
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-star.svg" alt="Etoile" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
-                        <img src="assets/images/icon-void-star.svg" alt="Etoile vide" class="etoile">
+                    <div class="flex-aside">
+                        <p class="gras">PHP</p>
+                        <div class="etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-star.svg" alt="Etoile">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                            <img src="assets/images/icon-void-star.svg" alt="Etoile vide">
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="decalage">
                 <h2>Langues</h2>
                 <hr>
-                <div>
-                    <p><span class="gras">Français</span> <span class="align-right">Langue maternelle</span></p>
-                    <p><span class="gras">Anglais</span> <span class="align-right">Notions</span></p>
+                <div class="flex-aside">
+                    <p class="gras">Français</p>
+                    <p class="align-right">Langue maternelle</p>
+                </div>
+                <div class="flex-aside">
+                    <p class="gras">Anglais</p>
+                    <p class="align-right">Notions</p>
                 </div>
             </section>
             <section class="decalage">
@@ -84,18 +88,18 @@
                 <hr>
                 <ul>
                     <li><span class="color-black">Travailleur</span></li>
-                    <li class="color-black">Acharné</li>
-                    <li class="color-black">Perfectionniste</li>
-                    <li class="color-black">Adaptable</li>
+                    <li><span class="color-black">Acharné</span></li>
+                    <li><span class="color-black">Perfectionniste</span></li>
+                    <li><span class="color-black">Adaptable</span></li>
                 </ul>
             </section>
             <section class="decalage">
                 <h2>Centres d'intérêt</h2>
                 <hr>
                 <ul>
-                    <li class="color-black">Programmation</li>
-                    <li class="color-black">Jeux Vidéos</li>
-                    <li class="color-black">Mangas</li>
+                    <li><span class="color-black">Programmation</span></li>
+                    <li><span class="color-black">Jeux Vidéos</span></li>
+                    <li><span class="color-black">Mangas</span></li>
                 </ul>
             </section>
         </aside>
@@ -117,13 +121,13 @@
                 <h2>Formations</h2>
                 <hr>
                 <div class="modif">
-                    <p class="gras">Certification de professionnel en Naturopathie</p>
-                    <p class="align-right">2021/2024</p>
+                    <p class="gras-main">Certification de professionnel en Naturopathie</p>
+                    <p class="align-right-green">2021/2024</p>
                     <p class="mini">Educatel</p>
                 </div>
                 <div class="modif">
-                    <p class="gras">Titre Professionnel DWWM</p>
-                    <p class="align-right">2024/2025</p>
+                    <p class="gras-main">Titre Professionnel DWWM</p>
+                    <p class="align-right-green">2024/2025</p>
                     <p class="mini">Centre Européen de Formation</p>
                 </div>
             </section>
@@ -131,13 +135,13 @@
                 <h2>Stages</h2>
                 <hr>
                 <div class="modif">
-                    <p class="gras">Stage en papeterie</p>
-                    <p class="align-right">Printemps 2004</p>
+                    <p class="gras-main">Stage en papeterie</p>
+                    <p class="align-right-green">Printemps 2004</p>
                     <p class="mini">Stage de 3ème au collège</p>
                 </div>
                 <div class="modif">
-                    <p class="gras">Développeur Front-end</p>
-                    <p class="align-right">Janvier 2025</p>
+                    <p class="gras-main">Développeur Front-end</p>
+                    <p class="align-right-green">Janvier 2025</p>
                     <p class="mini">Mairie de ma ville</p>
                 </div>
             </section>
@@ -145,19 +149,19 @@
                 <h2>Expérience professionnelle</h2>
                 <hr>
                 <div class="modif">
-                    <p class="gras">Assisant comptable</p>
-                    <p class="align-right">Mars 2007 - Mai 2007</p>
+                    <p class="gras-main">Assisant comptable</p>
+                    <p class="align-right-green">Mars 2007 - Mai 2007</p>
                     <p class="mini">Lycée Professionnel</p>
                 </div>
             </section>
         </main>
         <footer>
-            <div id="resaux">
+            <div id="reseaux">
                 <a href="https://www.linkedin.com/"><img src="assets/images/icon-linkedin.svg" alt="Lien Linkedin" id="linkedin"></a>
                 <a href="https://github.com/"><img src="assets/images/icon-github.svg" alt="Lien GitHub" id="github"></a>
-                <a href="https://www.instagram.com/"><img src="assets/images/icon-instagram.svg" id="instagram"></a>
+                <a href="https://www.instagram.com/"><img src="assets/images/icon-instagram.svg" alt="Lien Instagram" id="instagram"></a>
             </div>
-            <p class="color-white">Mis à jour le : <span id="date">JJ/MM/AAAA</span></p>
+            <p id="color-white-footer">Mis à jour le : JJ/MM/AAAA</p>
         </footer>
     </body>
 </html>

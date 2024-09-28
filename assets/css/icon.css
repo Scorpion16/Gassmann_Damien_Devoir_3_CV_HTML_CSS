@@ -3,23 +3,27 @@
 /* Classe */
 
 .etoile {
+    text-align: right;
+    flex-basis: 70%;
+}
+
+.etoile > img {
     color: #17abb3;
     height: 20px;
     width: 20px;
+    margin-bottom: -17px;
 }
 
 /* ID */
 
-#adresse {
+#adresse-icon {
     color: #ffffff;
-    margin: auto;
     height: 20px;
     width: 20px;
 }
 
-#email {
+#email-icon {
     color: #ffffff;
-    margin: auto;
     height: 20px;
     width: 20px;
 }
@@ -29,6 +33,12 @@
     margin: auto;
     height: 20px;
     width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#github:hover {
+    opacity: 0.7;
 }
 
 #instagram {
@@ -36,6 +46,11 @@
     margin: auto;
     height: 20px;
     width: 20px;
+    padding-left: 5px;
+}
+
+#instagram:hover {
+    opacity: 0.7;
 }
 
 #linkedin {
@@ -43,15 +58,24 @@
     margin: auto;
     height: 20px;
     width: 20px;
+    padding-right: 5px;
 }
 
-/*#reseaux {
+#linkedin:hover {
+    opacity: 0.7;
+}
 
-}*/
+#reseaux {
+    margin-bottom: -5px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 
-#permis {
+#permis-icon {
     color: #ffffff;
-    margin: auto;
     height: 20px;
     width: 20px;
 }
@@ -59,13 +83,13 @@
 #photo {
     border: #ffffff solid 5px;
     border-radius: 50%;
-    height: 175px;
+    height: 125px;
     width: 125px;
+    cursor: zoom-in;
 }
 
-#tel {
+#tel-icon {
     color: #ffffff;
-    margin: auto;
     height: 20px;
     width: 20px;
 }
